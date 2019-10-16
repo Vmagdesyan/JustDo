@@ -1,0 +1,8 @@
+.logo {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  min-width: 50%;
+  min-height: 100%;
+  background: transparent url('../../img/Login.png') 0% 0% no-repeat padding-box;
+}

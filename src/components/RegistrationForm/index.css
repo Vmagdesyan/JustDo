@@ -1,0 +1,44 @@
+.registrationForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+  min-height: 100vh;
+  font-family: 'SF Text Medium';
+  color: #BBBBC7;
+  font-size: 16px;
+}
+
+.registrationForm__title {
+  margin-top: 123px;
+}
+
+.registrationForm__inputBlock {
+  display: flex;
+  flex-direction: column;
+}
+
+.registrationForm__signInBlock {
+  margin-top: 35px;
+  display: flex;
+}
+
+.registrationForm__linkToLogin {
+  margin-left: 5px;
+}
+
+.registrationForm__agreeBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.registrationForm__linkToTermsConditions {
+  margin-right: 5px;
+}
+
+.registrationForm__linkToPrivacyPolicy {
+  margin-left: 5px;
+}

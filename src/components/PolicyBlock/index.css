@@ -1,0 +1,14 @@
+.policy {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.policy__linkToTermsConditions {
+  margin-right: 5px;
+}
+
+.policy__linkToPrivacyPolicy {
+  margin-left: 5px;
+}

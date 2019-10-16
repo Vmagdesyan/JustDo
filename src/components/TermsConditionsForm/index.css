@@ -1,0 +1,33 @@
+.termsConditionsForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  margin: 45px 50px;
+  overflow-y: auto;
+}
+
+.termsConditionsForm__header {
+  display: flex;
+  justify-content: space-between;
+  width: 65%;
+  align-self: flex-start;
+  margin-bottom: 45px;
+}
+
+.termsConditionsForm__content {
+  font-family: 'SF Text Medium';
+  font-size: 15px;
+  letter-spacing: 0.15px;
+  color: #1F1C1C;
+  opacity: 1;
+}
+
+.termsConditionsForm__accountsTitle {
+  margin: 20px 0;
+}
+
+.termsConditionsForm__userContentTitle {
+  margin: 20px 0;
+}
