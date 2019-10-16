@@ -1,0 +1,20 @@
+.input {
+  height: 35px;
+  width: 430px;
+  border: none;
+  border-bottom: 1px solid #BBBBC7;
+  font-family: "SF Text Regular";
+  font-size: 16px;
+  letter-spacing: 0;
+  color: #BBBBC7;
+  margin-bottom: 27px;
+}
+
+.input::placeholder {
+  color: #BBBBC7;
+  transform: translateY(2px);
+}
+
+.input::placeholder:focus {
+  border: none;
+}

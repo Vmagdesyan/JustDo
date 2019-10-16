@@ -1,0 +1,14 @@
+.button {
+  text-align: center;
+  font-size: 18px;
+  font-family: 'SF Text Medium';
+  letter-spacing: 0;
+  color: #FFFFFF;
+  border: none;
+  width: 257px;
+  height: 47px;
+  background: transparent linear-gradient(238deg, #2F80ED 0%, #56CCF2 100%) 0% 0% no-repeat padding-box;
+  border-radius: 26px;
+  opacity: 1;
+  cursor: pointer;
+}
