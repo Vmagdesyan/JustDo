@@ -21,7 +21,7 @@ class _TermsConditionsForm extends React.Component {
           and you («User», «you» or «your»). This Agreement sets forth the general terms and
           conditions of your use of the Mentalstack mobile application and any of its products or
           services (collectively, «Mobile Application» or «Services»).
-          <SectionTitle value="Accounts and membership" className="termsConditionsForm__accountsTitle"/>
+          <SectionTitle value="Accounts and membership" />
           You must be at least 13 years of age to use this Mobile Application. By using this
           Mobile Application and by agreeing to this Agreement you warrant and represent that you
           are at least 13 years of age. If you create an account in the Mobile Application, you
@@ -35,7 +35,7 @@ class _TermsConditionsForm extends React.Component {
           Agreement or that your conduct or content would tend to damage our reputation and goodwill. If we
           delete your account for the foregoing reasons, you may not re-register for our Services. We may
           block your email address and Internet protocol address to prevent further registration. 
-          <SectionTitle value="User content" className="termsConditionsForm__userContentTitle" />
+          <SectionTitle value="User content" />
           We do not own any data, information or material («Content») that you submit in the Mobile
           Application in the course of using the Service. You shall have sole responsibility for
           the accuracy, quality, integrity, legality, reliability, appropriateness, and intellectual
