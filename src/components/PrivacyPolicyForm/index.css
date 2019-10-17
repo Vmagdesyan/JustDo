@@ -1,0 +1,32 @@
+.privacyPolicyForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  padding: 45px 50px;
+  overflow-y: auto;
+}
+
+.privacyPolicyForm__header {
+  display: flex;
+  justify-content: space-between;
+  width: 65%;
+  align-self: flex-start;
+  margin-bottom: 45px;
+}
+
+.privacyPolicyForm__content {
+  font-family: 'SF Text Medium';
+  font-size: 15px;
+  letter-spacing: 0.15px;
+  color: #1F1C1C;
+  opacity: 1;
+}
+
+.privacyPolicyForm__accountsTitle {
+  margin: 20px 0;
+}
+
+.privacyPolicyForm__userContentTitle {
+  margin: 20px 0;
+}
