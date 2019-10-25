@@ -6,7 +6,7 @@ import './index.css';
 
 export const Button = (props) => {
   const { className, onClick, children } = props;
-  const buttonClassname = classNames("button", className);
+  const buttonClassname = classNames('button', className);
 
   return (
     <button onClick={onClick} className={buttonClassname}>{children}</button>

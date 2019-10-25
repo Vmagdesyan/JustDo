@@ -24,11 +24,11 @@ export class RegistrationForm extends React.PureComponent {
 
   onChangeIsWaiting = (isWaiting) => this.setState({ isWaiting });
 
-  onChangeEmail = (e) => this.setState({ email: e.target.value });
+  onChangeEmail = (email) => this.setState({ email });
 
-  onChangePassword = (e) => this.setState({ password: e.target.value });
+  onChangePassword = (password) => this.setState({ password });
 
-  onChangeConfirmPassworm = (e) => this.setState({ confirmPassword: e.target.value });
+  onChangeConfirmPassworm = (confirmPassword) => this.setState({ confirmPassword });
 
   render() {
     const {
@@ -39,19 +39,19 @@ export class RegistrationForm extends React.PureComponent {
     } = this.state;
 
     return (
-      <div className="registrationForm">
+      <div className='registrationForm'>
         <Preloader isWaiting={isWaiting} />
-        <Title className="registrationForm__title" value="Sign Up"/>
-        <div className="registrationForm__inputBlock">
-          <Input placeholder="E-mail" value={email} onChange={this.onChangeEmail} />
-          <Input placeholder="Password" value={password} onChange={this.onChangePassword} />
-          <Input placeholder="Confirm password" value={confirmPassword} onChange={this.onChangeConfirmPassworm} />
+        <Title className='registrationForm__title' value='Sign Up'/>
+        <div className='registrationForm__inputBlock'>
+          <Input placeholder='E-mail' value={email} onChange={this.onChangeEmail} />
+          <Input placeholder='Password' value={password} onChange={this.onChangePassword} />
+          <Input placeholder='Confirm password' value={confirmPassword} onChange={this.onChangeConfirmPassworm} />
         </div>
         <div>
           <Button onClick={this.onSignUp}>Sign Up</Button>
-          <div className="registrationForm__signInBlock">
+          <div className='registrationForm__signInBlock'>
             <div>I already have an account.</div>
-            <Link className="registrationForm__linkToLogin" to='/login'>Sign In</Link>
+            <Link className='registrationForm__linkToLogin' to='/login'>Sign In</Link>
           </div>
         </div>
         <PolicyBlock/>

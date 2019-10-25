@@ -11,12 +11,12 @@ export const BackButton = (props) => {
   const backButtonClassname = classNames('backButton', className);
 
   return (
-    <img
-      src={arrowLeft}
-      className={backButtonClassname}
-      onClick={onClick}
-      alt="Назад"
-    />
+    <button className={backButtonClassname} onClick={onClick}>
+      <img
+        src={arrowLeft}
+        alt='Назад'
+      />
+    </button>
   );
 }
 

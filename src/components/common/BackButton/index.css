@@ -1,3 +1,5 @@
 .backButton {
   cursor: pointer;
-}
+  background: none;
+  border: none;
+} 

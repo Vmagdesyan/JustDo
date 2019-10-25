@@ -7,7 +7,7 @@ import './index.css';
 
 export const Link = (props) => {
   const { children, to, className } = props;
-  const linkClassname = classNames("link", className);
+  const linkClassname = classNames('link', className);
 
   return (
     <RouterLink to={to} className={linkClassname}>{children}</RouterLink>

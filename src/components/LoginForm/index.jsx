@@ -23,24 +23,24 @@ export class LoginForm extends React.Component {
 
   onChangeIsWaiting = (isWaiting) => this.setState({ isWaiting });
 
-  onChangeEmail = (e) => this.setState({ email: e.target.value });
+  onChangeEmail = (email) => this.setState({ email });
 
-  onChangePassword = (e) => this.setState({ password: e.target.value });
+  onChangePassword = (password) => this.setState({ password });
 
   render() {
     const { email, password, isWaiting } = this.state;
 
     return (
-      <div className="login">
+      <div className='login'>
         <Preloader isWaiting={isWaiting} />
-        <Title className="login__title" value="Sign In"/>
-        <div className="login__inputBlock">
-          <Input placeholder="E-mail" value={email} onChange={this.onChangeEmail} />
-          <Input placeholder="Password" value={password} onChange={this.onChangePassword} />
+        <Title className='login__title' value='Sign In'/>
+        <div className='login__inputBlock'>
+          <Input placeholder='E-mail' value={email} onChange={this.onChangeEmail} />
+          <Input placeholder='Password' value={password} onChange={this.onChangePassword} />
         </div>
-        <Link to="/restorePassword">Forgot password?</Link>
+        <Link to='/restorePassword'>Forgot password?</Link>
         <Button onClick={this.onSignIn}>Sign In</Button>
-        <Link to="/registration">Sign Up</Link>
+        <Link to='/registration'>Sign Up</Link>
         <PolicyBlock />
       </div>
     );

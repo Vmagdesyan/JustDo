@@ -1,0 +1,94 @@
+.restorePasswordForm {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50%;
+  min-height: 100%;
+  margin: 50px 52px 0 52px;
+  font-family: 'SF Text Medium';
+  color: #BBBBC7;
+  font-size: 16px;
+}
+
+.restorePasswordForm__goBackButton {
+  align-self: flex-start;
+  margin-top: 50px;
+  margin-left: 52px;
+  display: flex;
+}
+
+.inputEmailForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+}
+
+.inputEmailForm__goBackButton {
+  align-self: flex-start;
+}
+
+.inputEmailForm__sendButton {
+  margin-bottom: 150px;
+}
+
+.inputEmailForm__title {
+  margin-bottom: 20px;
+}
+
+.inputEmailForm__emailHintBlock {
+  margin-bottom: 100px;
+}
+
+.inputEmailForm__inputEmail {
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.inputEmailForm__inputForm {
+  min-height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inputNewPasswordForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.inputNewPasswordForm__goBackButton {
+  align-self: flex-start;
+  margin-bottom: 50px;
+}
+
+.inputNewPasswordForm__title {
+  margin-bottom: 20px;
+}
+
+.inputNewPasswordForm__inputForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inputNewPasswordForm__passwordHintBlock {
+  text-align: center;
+}
+
+.inputNewPasswordForm__inputsBlock {
+  text-align: center;
+  align-self: center;
+  margin-top: 70px;
+}
+
+.inputNewPasswordForm__changePasswordButton {
+  margin-top: 50px;
+}
+
